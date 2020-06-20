@@ -8,6 +8,8 @@ This is my first python project, so excuse the horrible source!
 2. Run main.py
 3. Done!
 
+###### Coded in Python 3.
+
 ###### No dependencies!
 
 ## How does it work?
