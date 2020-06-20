@@ -1,2 +1,4 @@
 # typingtest
-Small python typingtest game. New to programming!
+Small python typing-test game.
+
+This is my first python project, so it's rubbish.
