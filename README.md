@@ -1,4 +1,4 @@
 # typingtest
 Small python typing-test game.
 
-This is my first python project, so it's rubbish.
+This is my first python project, so it's rubbish. Please no judge :|

@@ -6,8 +6,17 @@ wpm = 0
 averagewpm = 0
 round = 1
 while True:
+    print("Type 'external' to use sentences.dat or press enter to exit.")
     sent = input("Enter sentence:")
     if sent == "":
+        break
+    if sent == 'external':
+        text_file = open("sentences.dat")
+        lines = text_file.read().splitlines()
+        #print(lines)
+        #print(len(lines))
+        sentence = lines
+        text_file.close()
         break
     sentence.append(sent)
 while True:
