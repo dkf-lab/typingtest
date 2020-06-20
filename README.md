@@ -1,11 +1,13 @@
 # Python Typing Test Game!
 This is my first python project, so excuse the horrible source!
+
 #####plz no bully
 
 ## How to install:
 1. Clone repo
 2. Run main.py
 3. Done!
+
 ######No dependencies!
 
 ## How does it work?
