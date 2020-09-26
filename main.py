@@ -20,16 +20,23 @@ while True:
     if prompteduser == 0:
         print("Type 'external' to use sentences.dat or press enter to exit.")
         prompteduser=1
-    sent = input("Enter sentence:")
-    if sent == "":
-        break
+    sent = input("Enter sentence: ")
+    if sent == "" or sent == "exit":
+        if len(sentence) == 0:
+            print("Invalid input.")
+            validInput = False
+            clearLines()
+        else:
+            break
     if sent == 'external':
         text_file = open("sentences.dat")
         lines = text_file.read().splitlines() #or use split(seperator)
         sentence = lines
         text_file.close()
         break
-    sentence.append(sent)
+    if validInput == True:
+        sentence.append(sent)
+    validInput = True
 
 #The game itself
 
@@ -43,7 +50,7 @@ while True:
     if usrinput == 'exit':
         clearScreen()
         clearLines()
-        print('Exiting! Your final score was',score,'and your average WPM was',int((averagewpm/round)))
+        print('Exiting! Your final score was',score,'and your average WPM was',int(averagewpm/round))
         break
     else:
         if usrinput == sentence[x]:
