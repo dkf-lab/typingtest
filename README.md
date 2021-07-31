@@ -1,14 +1,12 @@
 # Python Typing Test Game!
-This is my first python project, so excuse the horrible source!
-
-###### plz no bully
+This is my first python project - some of the code is a lil messy!
 
 ## How to install:
 1. Clone repo
 2. Run main.py
 3. Done!
 
-###### Coded in Python 3.
+###### Written in Python 3.
 
 ###### No dependencies!
 
